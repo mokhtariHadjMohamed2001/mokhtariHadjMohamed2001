@@ -4,486 +4,355 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with Meyawo landing page.">
-    <meta name="author" content="Devcrud">
-    <title>Mokhtari Hadj Mohamed</title>
-    <!-- font icons -->
+    <meta name="description" content="Mokhtari Hadj Mohamed - Software Engineer & Project Manager">
+    <meta name="author" content="Mokhtari Hadj Mohamed">
+    <title>Mokhtari Hadj Mohamed | Software Engineer</title>
+
+    <!-- Icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-    <!-- Bootstrap + Meyawo main styles -->
-    <link rel="stylesheet" href="assets/css/meyawo.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Modern Theme -->
+    <link rel="stylesheet" href="assets/css/modern-theme.css">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+<body>
 
-    <!-- Page Navbar -->
-    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
         <div class="container">
-            <a class="logo" href="#">Mokhtari Hadj Mohamed</a>
-            <ul class="nav">
-                <li class="item">
-                    <a class="link" href="#home">Home</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#about">About</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#testmonial">Testmonial</a>
-                </li>
-                <!-- <li class="item">
-                    <a class="link" href="#blog">Blog</a>
-                </li> -->
-                <li class="item">
-                    <a class="link" href="#contact">Contact</a>
-                </li>
-                <!-- <li class="item ml-md-3">
-                    <a href="components.html" class="btn btn-primary">Components</a>
-                </li> -->
+            <!-- Simplified Logo: Just the name -->
+            <a href="#" class="logo">mokhtarihadjmohamed</a>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
-                <div class="hamburger-box">
-                    <div class="hamburger-inner"></div>
-                </div>
-            </a>
+
+            <div class="menu-toggle">
+                <i class="ti-menu"></i>
+            </div>
         </div>
-    </nav><!-- End of Page Navbar -->
+    </nav>
 
-    <!-- page header -->
-    <header id="home" class="header">
-        <div class="overlay"></div>
-        <div class="header-content container">
-            <h1 class="header-title">
-                <span class="up">HI!</span>
-                <span class="down">I am Mokhtari Hadj Mohamed</span>
-            </h1>
-            <p class="header-subtitle">Software Engineer and Project Manager</p>
-
-            <a class="btn btn-primary" target="_blank" href="#">Visit My Works</a>
-        </div>
-    </header><!-- end of page header -->
-
-    <!-- about section -->
-    <section class="section pt-0" id="about">
-        <!-- container -->
-        <div class="container text-center">
-            <!-- about wrapper -->
-            <div class="about">
-                <div class="about-img-holder">
-                    <img src="assets/imgs/man2.png" class="about-img"
-                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="container">
+            <div class="hero-text reveal">
+                <span class="hero-subtitle">Hello, I'm</span>
+                <h1 class="hero-title">Mokhtari Hadj Mohamed</h1>
+                <p class="hero-desc">
+                    Software Engineer & Project Manager specializing in mobile development (Android/Flutter) and leading
+                    teams to build exceptional digital products.
+                </p>
+                <div class="hero-btns">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
                 </div>
-                <div class="about-caption">
-                    <p class="section-subtitle">Who Am I ?</p>
-                    <h2 class="section-title mb-3">About Me</h2>
+            </div>
+            <div class="hero-img-wrap reveal">
+                <div class="hero-shape"></div>
+                <!-- Updated to use man.jpg (confirmed existence) -->
+                <img src="assets/imgs/man.jpg" alt="Mokhtari Hadj Mohamed" class="hero-img">
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img-wrap reveal">
+                    <!-- YouTube Video Embed -->
+                    <div class="video-container"
+                        style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 20px; box-shadow: var(--shadow-md);">
+                        <iframe src="https://www.youtube.com/embed/g-Ut6oZPlfk"
+                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <div class="about-text reveal">
+                    <span class="section-subtitle">Who Am I?</span>
+                    <h2 class="section-title">Passionate about Technology & Leadership</h2>
+                    <br>
                     <p>
-                        I've been growing with Flutter, Android (Java & Kotlin), and Jetpack Compose to create
-                        applications that are not only functional but also enjoyable to use. I have a Master's in
+                        I've been growing with <strong>Flutter, Android (Java & Kotlin)</strong>, and Jetpack Compose to
+                        create applications that are not only functional but also enjoyable to use. I have a Master's in
                         Software Engineering, which has given me a solid technical foundation.
-
-                        <br> I am always learning new technologies and frameworks to become more efficient and effective
-                        in coding applications.
-
-                        <br> Besides my technical expertise, I am also learning to obtain a Project Management
-                        certification to enhance my organizational and leadership skills. I believe that technical
-                        expertise should be complemented by good project management skills so that projects can be
-                        executed successfully and reconciled with teams.
-
-                        <br> I like collaborating to solve problems and get things done. If mobile app development or
-                        technology interests you, or you just want to discuss tech, give me a shout.
-
-                        <br> Always looking forward to meeting some new people and possibilities!
                     </p>
-                    <!-- <button class="btn-rounded btn btn-outline-primary mt-4" onclick="downloadDocSE()">Download CV</button> -->
+                    <p>
+                        Beyond code, I am pursuing Project Management certification to enhance my organizational and
+                        leadership skills. I believe that technical expertise should be complemented by effective
+                        management to ensure project success.
+                    </p>
+                    <a href="#" class="btn btn-outline" download>Download CV</a>
                 </div>
-            </div><!-- end of about wrapper -->
-        </div><!-- end of container -->
-    </section> <!-- end of about section -->
-
-    <!-- service section -->
-    <section class="section" id="service">
-        <div class="container text-center">
-            <p class="section-subtitle">What I Do ?</p>
-            <h6 class="section-title mb-6">Service</h6>
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/pencil-case.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Software Engineer</h6>
-                            <p class="subtitle">Develops and maintains software systems, solving technical problems
-                                across platforms.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/responsive.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Project Manager</h6>
-                            <p class="subtitle">Plans, coordinates, and manages project timelines, teams, and
-                                deliverables.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/toolbox.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Android App Development</h6>
-                            <p class="subtitle">Designs, builds, and maintains native Android apps using Kotlin or Java.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/analytics.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Cross-platform Mobile App</h6>
-                            <p class="subtitle">Creates mobile apps for Android and iOS using Flutter framework.</p>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- end of row -->
+            </div>
         </div>
-    </section><!-- end of service section -->
+    </section>
 
-    <!-- portfolio section -->
+    <!-- Services Section -->
+    <section class="section" id="services" style="background: #fff;">
+        <div class="container">
+            <div class="text-center section-head reveal">
+                <span class="section-subtitle">What I Do</span>
+                <h2 class="section-title">My Services</h2>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <img src="assets/imgs/pencil-case.svg" alt="Software Engineer">
+                    </div>
+                    <h3 class="service-title">Software Engineer</h3>
+                    <p class="service-desc">
+                        Developing and maintaining robust software systems, solving complex technical problems across
+                        various platforms.
+                    </p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <img src="assets/imgs/responsive.svg" alt="Project Manager">
+                    </div>
+                    <h3 class="service-title">Project Manager</h3>
+                    <p class="service-desc">
+                        Planning, coordinating, and managing project timelines, teams, and deliverables to ensure
+                        success.
+                    </p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <img src="assets/imgs/toolbox.svg" alt="Android Dev">
+                    </div>
+                    <h3 class="service-title">Android Development</h3>
+                    <p class="service-desc">
+                        Designing, building, and maintaining native Android applications using modern tools like
+                        Kotlin/Java.
+                    </p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <img src="assets/imgs/analytics.svg" alt="Cross-Platform">
+                    </div>
+                    <h3 class="service-title">Flutter Apps</h3>
+                    <p class="service-desc">
+                        Creating beautiful, high-performance mobile apps for both Android and iOS using the Flutter
+                        framework.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
     <section class="section" id="portfolio">
-        <div class="container text-center">
-            <p class="section-subtitle">What I Did ?</p>
-            <h6 class="section-title mb-6">Portfolio</h6>
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-4">
-                    <a href="https://github.com/MokhtariHadjMohamed/Insulin_dose_App" target="_blank"
-                        class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/Insulin 1.png" class="img-responsive rounded"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Insulin Dose</h5>
-                                    <p class="font-weight-normal">Category: Android App</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="https://github.com/MokhtariHadjMohamed/jumlt_plus" target="_blank" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/Jumlt+ 1.png" class="img-responsive rounded"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Jumlt+</h5>
-                                    <p class="font-weight-normal">Category: Android App</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="" class="portfolio-card">
-                        <img src="assets/imgs/Amim 1.png" class="portfolio-card-img"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Amim App</h5>
-                                    <p class="font-weight-normal">Category: Cross-platform Mobile App</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-            </div><!-- end of row -->
-        </div><!-- end of container -->
-    </section> <!-- end of portfolio section -->
+        <div class="container">
+            <div class="text-center section-head reveal">
+                <span class="section-subtitle">My Work</span>
+                <h2 class="section-title">Portfolio</h2>
+            </div>
 
-    <!-- pricing section -->
-    <section class="section" id="pricing">
-        <div class="container text-center">
-            <p class="section-subtitle">How Much I Charge ?</p>
-            <h6 class="section-title mb-6">My Pricing</h6>
-            <!-- row -->
-            <div class="pricing-wrapper">
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/scooter.svg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+            <div class="portfolio-grid">
+                <!-- Item 1 -->
+                <a href="insulin-dose.html" class="portfolio-item reveal">
+                    <div class="portfolio-img-wrap">
+                        <img src="assets/imgs/Insulin 1.png" alt="Insulin Dose" class="portfolio-img">
                     </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Basic <br> Starter App</h6>
-                        <div class="pricing-card-list">
-                            <p>Up to 3 screens</p>
-                            <p>Static UI (no backend)</p>
-                            <p>Basic navigation</p>
-                            <p>Clean layout</p>
+                    <div class="portfolio-info">
+                        <span class="portfolio-cat">Android App</span>
+                        <h3 class="portfolio-title">Insulin Dose</h3>
+                        <p style="font-size: 0.9rem; color: #777;">A medical calculator for insulin dosage tracking.</p>
+                    </div>
+                </a>
+
+                <!-- Item 2 -->
+                <a href="jumlt-plus.html" class="portfolio-item reveal">
+                    <div class="portfolio-img-wrap">
+                        <img src="assets/imgs/Jumlt+ 1.png" alt="Jumlt+" class="portfolio-img">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-cat">Android App</span>
+                        <h3 class="portfolio-title">Jumlt+</h3>
+                        <p style="font-size: 0.9rem; color: #777;">Wholesale management system for retail businesses.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Item 3: Machroui App (Replaces Amim) -->
+                <a href="machroui-app.html" class="portfolio-item reveal">
+                    <div class="portfolio-img-wrap">
+                        <img src="assets/imgs/machroui-app.png" alt="Machroui App" class="portfolio-img">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-cat">Featured Project</span>
+                        <h3 class="portfolio-title">Machroui App</h3>
+                        <p style="font-size: 0.9rem; color: #777;">Business management solution for store owners.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="section" id="testimonials" style="background: #fff;">
+        <div class="container">
+            <div class="text-center section-head reveal">
+                <span class="section-subtitle">Testimonials</span>
+                <h2 class="section-title">What Clients Say</h2>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-body">
+                        <p>"I am pleased to recommend Hadj Mohamed Mokhtari for his exceptional work on a mobile health
+                            application project. He demonstrated strong mobile development skills, delivering a
+                            well-designed and functional solution."</p>
+                    </div>
+                    <div class="testimonial-user">
+                        <img src="assets/imgs/avatar2.jpeg" alt="Client" class="user-img">
+                        <div class="user-info">
+                            <h5>ABDELKADER OUARED</h5>
+                            <span>University Ibn Khaldoun</span>
                         </div>
                     </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>100</span>
-                    </div>
-                    <a class="btn btn-primary mt-3 pricing-card-btn" target="_blank"
-                        href="https://www.upwork.com/services/product/development-it-a-mobile-app-developer-with-flutter-with-years-of-experience-1911374375948755424">
-                        Purchase</a>
-                </div>
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/shipped.svg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Standard <br> MVP App</h6>
-                        <div class="pricing-card-list">
-                            <p>Up to 6 screens</p>
-                            <p>Firebase or API setup</p>
-                            <p>Login/authentication</p>
-                            <p>Responsive design</p>
-                            <!-- <p><i class="ti-close"></i></p> هذه علامة ضرب اي لا يوجد -->
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>400</span>
-                    </div>
-                    <a class="btn btn-primary mt-3 pricing-card-btn" target="_blank"
-                        href="https://www.upwork.com/services/product/development-it-a-mobile-app-developer-with-flutter-with-years-of-experience-1911374375948755424">
-                        Purchase</a>
-                </div>
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/startup.svg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Premium <br> Complete App</h6>
-                        <div class="pricing-card-list">
-                            <p>8+ screens</p>
-                            <p>Advanced features </p>
-                            <p>API or Firebase backend</p>
-                            <p>App store-ready build</p>
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>700</span>
-                    </div>
-                    <a class="btn btn-primary mt-3 pricing-card-btn" target="_blank"
-                        href="https://www.upwork.com/services/product/development-it-a-mobile-app-developer-with-flutter-with-years-of-experience-1911374375948755424">
-                        Purchase</a>
                 </div>
 
-            </div><!-- end of pricing wrapper -->
-        </div> <!-- end of container -->
-    </section><!-- end of pricing section -->
-
-    <!-- section -->
-    <section class="section-sm bg-primary">
-        <!-- container -->
-        <div class="container text-center text-sm-left">
-            <!-- row -->
-            <div class="row align-items-center">
-                <div class="col-sm offset-md-1 mb-4 mb-md-0">
-                    <h6 class="title text-light">Want to work with me?</h6>
-                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
-                </div>
-                <div class="col-sm offset-sm-2 offset-md-3">
-                    <a class="btn btn-lg my-font btn-light rounded"
-                        href="https://www.upwork.com/services/product/development-it-a-mobile-app-developer-with-flutter-with-years-of-experience-1911374375948755424">
-                        Hire Me
-                    </a>
-                </div>
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </section> <!-- end of section -->
-
-    <!-- testimonial section -->
-    <section class="section" id="testmonial">
-        <div class="container text-center">
-            <p class="section-subtitle">What Think Client About Me ?</p>
-            <h6 class="section-title mb-6">Testmonial</h6>
-
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/avatar2.jpeg" class="testimonial-card-img"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        </div>
-                        <div class="testimonial-card-body">
-                            <p class="testimonial-card-subtitle">I am pleased to recommend Hadj Mohamed Mokhtari for his
-                                exceptional work on a mobile health application project at the University Ibn Khaldoun
-                                of Tiaret. Throughout the project, he demonstrated strong mobile development skills,
-                                delivering a well-designed and functional solution. His ability to tackle challenges and
-                                apply technical expertise makes him a valuable asset for any future mobile development
-                                role.
-                            </p>
-                            <h6 class="testimonial-card-title">ABDELKADER OUARED</h6>
-                        </div>
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-body">
+                        <p>"He demonstrated creativity, commitment, and a strong technical mindset. His solid coding
+                            skills and foundational knowledge in machine learning stood out. Al Hadj is a motivated and
+                            versatile individual."</p>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/avatar3.jpeg" class="testimonial-card-img"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        </div>
-                        <div class="testimonial-card-body">
-                            <p class="testimonial-card-subtitle">I had the pleasure of working with Al Hadj Mohamed
-                                Mokhtari during his internship as a key member of the Marketing and Tech Team at
-                                Technofoster Incubator, Ibn Khaldoun University of Tiaret. Throughout his time with us,
-                                he demonstrated creativity, commitment, and a strong technical mindset. His solid coding
-                                skills and foundational knowledge in machine learning stood out, making him a valuable
-                                contributor to our projects. Al Hadj is a motivated and versatile individual with great
-                                potential in the tech field.
-                            </p>
-                            <h6 class="testimonial-card-title">Anwar SEKIOU</h6>
+                    <div class="testimonial-user">
+                        <img src="assets/imgs/avatar3.jpeg" alt="Client" class="user-img">
+                        <div class="user-info">
+                            <h5>Anwar SEKIOU</h5>
+                            <span>Technofoster Incubator</span>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> <!-- end of container -->
-    </section> <!-- end of testimonial section -->
+        </div>
+    </section>
 
-    <!-- blog section -->
-    <!-- <section class="section" id="blog"> -->
-    <!-- container -->
-    <!-- <div class="container text-center">
-            <p class="section-subtitle">Recent Posts?</p>
-            <h6 class="section-title mb-6">Blog</h6> -->
-    <!-- blog-wrapper -->
-    <!-- <div class="blog-card">
-                <div class="blog-card-header">
-                    <img src="assets/imgs/img-1.jpg" class="blog-card-img"
-                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                </div>
-                <div class="blog-card-body">
-                    <h5 class="blog-card-title">Consectetur adipisicing elit</h6>
-
-                        <p class="blog-card-caption">
-                            <a href="#">By: Admin</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 234</a>
-                            <a href="#"><i class="ti-comment"></i> 123</a>
-                        </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nesciunt qui sit velit
-                            delectus voluptates, repellat ipsum culpa id deleniti. Rerum debitis facilis accusantium
-                            neque numquam mollitia modi quasi distinctio.</p>
-
-                        <p><b>Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid consequuntur repudiandae.</b>
-                        </p>
-                        <p>Magnam in repellat enim harum omnis aperiam! Explicabo illo, commodi, dolor blanditiis
-                            cupiditate harum nisi vero accusamus laudantium voluptatibus dolores quae obcaecati.</p>
-
-                        <a href="#" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
-                </div>
-            </div> -->
-    <!-- end of blog wrapper -->
-
-    <!-- blog-wrapper -->
-    <!-- <div class="blog-card">
-                <div class="blog-card-header">
-                    <img src="assets/imgs/img-2.jpg" class="blog-card-img"
-                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                </div>
-                <div class="blog-card-body">
-                    <h5 class="blog-card-title">Explicabo illo</h6>
-
-                        <p class="blog-card-caption">
-                            <a href="#">By: Admin</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 456</a>
-                            <a href="#"><i class="ti-comment"></i> 264</a>
-                        </p>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi laborum enim,
-                            vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro
-                            quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto
-                            omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae?
-                            Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non
-                            dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus
-                            eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
-
-                        <a href="#" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
-                </div>
-            </div> -->
-    <!-- end of blog wrapper -->
-
-    <!-- </div> -->
-    <!-- end of container -->
-    <!-- </section> -->
-    <!-- end of blog section -->
-
-    <!-- contact section -->
+    <!-- Contact Section -->
     <section class="section" id="contact">
-        <div class="container text-center">
-            <p class="section-subtitle">How can you communicate?</p>
-            <h6 class="section-title mb-5">Contact Me</h6>
-            <!-- contact form -->
-            <form action="https://formspree.io/f/xwpolrjn" method="POST">
-                <div class="form-row">
-                    <div class="form-group col-sm-6">
-                        <input type="text" size="50" class="form-control" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group col-sm-6">
-                        <input type="email" class="form-control" placeholder="Enter Email" name="email" requried>
-                    </div>
-                    <div class="form-group col-sm-12">
-                        <textarea name="comment" id="comment" rows="6" class="form-control"
-                            placeholder="Write Something" name="message"></textarea>
-                    </div>
-                    <div class="form-group col-sm-12 mt-3">
-                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">
-                    </div>
-                </div>
-            </form><!-- end of contact form -->
-        </div><!-- end of container -->
-    </section><!-- end of contact section -->
-
-    <!-- footer -->
-    <div class="container">
-        <footer class="footer">
-            <p class="mb-0">Copyright
-                <script>document.write(new Date().getFullYear())</script> &copy; <a
-                    href="http://www.devcrud.com">DevCRUD</a>
-            </p>
-            <div class="social-links text-right m-auto ml-sm-auto">
-                <a href="https://linkedin.com/in/hadjmohamedmokhtari" class=""><i class="ti-linkedin"></i></a>
-                <a href="https://github.com/MokhtariHadjMohamed" class=""><i class="ti-github"></i></a>
-                <a href="https://www.instagram.com/mokhtarihadjmohamed/" class=""><i class="ti-instagram"></i></a>
+        <div class="container">
+            <div class="text-center section-head reveal">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Contact Me</h2>
             </div>
-        </footer>
-    </div> <!-- end of page footer -->
 
-    <!-- core  -->
-    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+            <div class="contact-wrapper reveal">
+                <form action="https://formspree.io/f/xwpolrjn" method="POST">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" class="form-control"
+                            placeholder="Write your message here..."></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 
-    <!-- bootstrap 3 affix -->
-    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+    <!-- Footer -->
+    <footer style="background: var(--text-main); color: #fff; padding: 50px 0; text-align: center;">
+        <div class="container">
+            <div style="margin-bottom: 20px;">
+                <a href="#" style="color: #fff; font-size: 1.5rem; font-weight: 800;">mokhtarihadjmohamed</a>
+            </div>
+            <div class="social-links" style="justify-content: center; margin-bottom: 20px;">
+                <a href="https://linkedin.com/in/hadjmohamedmokhtari"
+                    style="color: #fff; font-size: 1.2rem; margin: 0 10px;"><i class="ti-linkedin"></i></a>
+                <a href="https://github.com/MokhtariHadjMohamed"
+                    style="color: #fff; font-size: 1.2rem; margin: 0 10px;"><i class="ti-github"></i></a>
+                <a href="https://www.instagram.com/mokhtarihadjmohamed/"
+                    style="color: #fff; font-size: 1.2rem; margin: 0 10px;"><i class="ti-instagram"></i></a>
+                <a href="https://www.tiktok.com/@mokhtarihadjmohamed"
+                    style="color: #fff; font-size: 1.2rem; margin: 0 10px;"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.youtube.com/@mokhtarihadjmohamed"
+                    style="color: #fff; font-size: 1.2rem; margin: 0 10px;"><i class="ti-youtube"></i></a>
+            </div>
+            <p style="opacity: 0.6; font-size: 0.9rem;">
+                &copy;
+                <script>document.write(new Date().getFullYear())</script> Mokhtari Hadj Mohamed. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
 
-    <!-- Meyawo js -->
-    <script src="assets/js/meyawo.js"></script>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2GF3M3GGRE"></script>
+    <!-- Scripts -->
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+        // Simple script for navbar scroll effect and mobile toggle
+        window.addEventListener('scroll', function () {
+            var navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
 
-        gtag('config', 'G-2GF3M3GGRE');
+        // Mobile Toggle (Simple implementation)
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        if (menuToggle) {
+            menuToggle.addEventListener('click', () => {
+                if (navLinks.style.display === 'flex') {
+                    navLinks.style.display = 'none';
+                } else {
+                    navLinks.style.display = 'flex';
+                    navLinks.style.flexDirection = 'column';
+                    navLinks.style.position = 'absolute';
+                    navLinks.style.top = '70px';
+                    navLinks.style.left = '0';
+                    navLinks.style.width = '100%';
+                    navLinks.style.background = '#fff';
+                    navLinks.style.padding = '20px';
+                    navLinks.style.boxShadow = '0 10px 20px rgba(0,0,0,0.1)';
+                }
+            });
+        }
+
+        // Scroll Reveal Animation (Intersection Observer)
+        const revealElements = document.querySelectorAll('.reveal');
+
+        const revealObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    observer.unobserve(entry.target); // Animates only once
+                }
+            });
+        }, {
+            root: null,
+            threshold: 0.15, // Trigger when 15% visible
+        });
+
+        revealElements.forEach(el => revealObserver.observe(el));
     </script>
-
 </body>
 
 </html>
